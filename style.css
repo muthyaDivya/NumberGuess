@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+h1{
+    background-color: #3e815b;
+    color: azure;
+    box-shadow:#9bbda9;
+    text-align: center;
+    font-size: 18px;
+}
+#maindiv{
+    background-color: #0e2c1b;
+    color: whitesmoke;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    gap: 20px;
+}
+#inputdiv{
+justify-self: center;
+}
+#btndiv{
+    justify-self: center;
+}
+#resultdiv{
+    justify-self:normal;
+}
