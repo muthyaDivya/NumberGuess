@@ -6,36 +6,40 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: ;
+    background-color: #1e3024;
     }
-/* h1{
+h1{
     background-color: #3e815b;
     color: azure;
     box-shadow:#9bbda9;
     text-align: center;
-    font-size: 25px;
-} */
-video {
-    position: fixed; /* Sticks the video to the background */
-    top: 0;
-    left: 0;
-    width: 100%; /* Covers the full width */
-    height: 100%; /* Covers the full height */
-    object-fit: cover; /* Ensures the video scales properly */
-    z-index: -1; /* Places the video behind other content */
+    font-size: 18px;
+    width: 300px;
+    padding: 20px;
+}
+#mainsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
 }
 #maindiv{
-   
+    border: #0b0d0c 2px solid;
     background-color: #0e2c1b;
     color: whitesmoke;
-    width: auto;
+    width: 600px;
+    height: 400px; 
+    padding: 30px;
+    gap: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full viewport height */
-    margin: 0;
-    gap: 20px;
+    
+    
 }
 #inputdiv{
 justify-self: center;
@@ -44,5 +48,8 @@ justify-self: center;
     justify-self: center;
 }
 #resultdiv{
-    justify-self:normal;
+    justify-self:center;
+}
+#result{
+    padding: 10px 0;
 }

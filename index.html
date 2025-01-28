@@ -8,23 +8,23 @@
     <title>Guess The Number</title>
 </head>
 <body>
-    <video autoplay muted loop> 
-    <source src="images/GuessTheNumber.mp4" type="video/mp4">
-    </video>
-    <div id="maindiv">
-        <div id="inputdiv">
-            <label for="userInput">Guess a number</label>
-            <input type="number" id="userInput" name="userInput">
+    <section id="mainsection">
+        <h1>Guess The Number Game</h1>
+        <div id="maindiv">
+            <div id="inputdiv">
+                <label for="userInput">Guess a number: </label>
+                <input type="number" id="userInput" name="userInput">
+            </div>
+            <div id="btndiv">
+                <button id="btnsubmit" type="submit">Submit</button>
+                <button id="btnreset" type="reset">Reset</button>
+            </div>
+            <br/>
+            <div id="resultdiv">
+                <p id="result"></p>
+                <p>count: <span id="counter">0</span></p>
+            </div>
         </div>
-        <div id="btndiv">
-            <button id="btnsubmit" type="submit">Submit</button>
-            <button id="btnreset" type="reset">Reset</button>
-        </div>
-        <br/>
-        <div id="resultdiv">
-            <p id="result"></p>
-            <p>count: <span id="counter">0</span></p>
-        </div>
-    </div>
+    </section>
 </body>
 </html>
